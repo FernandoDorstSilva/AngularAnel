@@ -2,23 +2,33 @@
     <a class="navbar-brand" routerLink="">
       <img src="assets/img/logo.png" width="120" height="90" alt="">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item active">
           <a class="nav-link" routerLink="" routerLinkActive="active-link" [routerLinkActiveOptions]= "{exact:true}" >Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="menu" routerLinkActive="active-link">Menu</a>
+          <a class="nav-link" routerLink="nova-os" routerLinkActive="active-link">Nova OS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="about" routerLinkActive="active-link">Sobre</a>
+          <a class="nav-link" routerLink="consulta-os" routerLinkActive="active-link">Consulta OS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="contact" routerLinkActive="active-link">Contato</a>
+          <a class="nav-link" routerLink="veiculos-entregues" routerLinkActive="active-link">Veiculos Entregues</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="servicos-oferecidos" routerLinkActive="active-link">Serviços Oferecidos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="manuais" routerLinkActive="active-link">Manuais</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="historico-de-avisos" routerLinkActive="active-link"></a>
+        </li>
+      
       </ul>
     </div>
   </nav>
