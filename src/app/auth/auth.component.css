@@ -1,0 +1,16 @@
+.form-group{
+    text-align: center;
+    color: gold;
+    margin-left: 140px;
+}
+
+.btn{
+    margin-left: 160px;;
+}
+
+.container{
+    margin-top: auto;
+    
+    margin-bottom: auto;
+    margin-right: auto;
+}
